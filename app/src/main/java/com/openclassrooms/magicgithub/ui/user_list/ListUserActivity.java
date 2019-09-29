@@ -42,7 +42,7 @@ public class ListUserActivity extends BaseActivity implements UserListAdapter.Li
         recyclerView = findViewById(R.id.activity_list_user_rv);
         adapter = new UserListAdapter(this);
         recyclerView.setAdapter(adapter);
-    }
+}
 
     private void configureFab() {
         fab = findViewById(R.id.activity_list_user_fab);
